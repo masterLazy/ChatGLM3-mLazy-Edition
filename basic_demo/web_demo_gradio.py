@@ -41,7 +41,7 @@ ModelType = Union[PreTrainedModel, PeftModelForCausalLM]
 TokenizerType = Union[PreTrainedTokenizer, PreTrainedTokenizerFast]
 
 #MODEL_PATH = os.environ.get('MODEL_PATH', 'THUDM/chatglm3-6b')
-MODEL_PATH = 'chatglm3-6b'
+MODEL_PATH = 'your model path here'
 TOKENIZER_PATH = os.environ.get("TOKENIZER_PATH", MODEL_PATH)
 
 
