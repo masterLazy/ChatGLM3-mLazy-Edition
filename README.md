@@ -8,5 +8,7 @@
 
 ## Notice
 To run the web demo, you need to edit:
-basic_demo/web_demo_gradio.py:44
+
+src/basic_demo/web_demo_gradio.py:44
+
 Change the value to load your model file.
