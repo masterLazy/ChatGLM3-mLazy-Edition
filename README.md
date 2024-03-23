@@ -7,8 +7,10 @@
 - A `web_demo.bat` to start the web demo quickly.
 
 ## Notice
-To run the web demo, you need to edit:
+To run the web demo, you need to edit line 44 in `basic_demo/web_demo_gradio.py`: 
 
-src/basic_demo/web_demo_gradio.py:44
+```python
+MODEL_PATH = 'your model path here'
+```
 
 Change the value to load your model file.
